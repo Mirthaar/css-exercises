@@ -1,0 +1,20 @@
+p {
+    background-color: #ffc0cb;
+    font-family: "Verdana", "DejaVuSans", sans-serif;
+}
+
+div {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.thirdelement {
+    font-size: 24px;
+}
+
+.fourthelement {
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
