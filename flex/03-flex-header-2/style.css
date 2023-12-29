@@ -12,6 +12,18 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex; /* got this right */
+  /* align-items: center; should have been justify-content: space-between */
+  justify-content: space-between;
+  padding: 8px; /* got this right */
+}
+
+.header > * {
+  display: flex; /* got this right */
+  gap: 16px; /* 16px instead of 8px */
+  /* padding: 8px; !! Not needed !! */
+  align-items: center;
+  /* !! align-items: center; */
 }
 
 .profile-image {
@@ -27,6 +39,8 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  flex: auto;
+  margin: 0 10px;
 }
 
 button {
@@ -35,6 +49,8 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  flex: auto;
+  align-self: center;
 }
 
 a {
@@ -45,4 +61,10 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0px; /* got this right */
+  padding: 0px; /* got this right */
+  align-items: center;
+  gap: 8px; /* set to 8 instead of 16 */
+  display: flex;
+  /* Did not display: flex; */ */
 }
